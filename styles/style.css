@@ -10,6 +10,23 @@ body{
     background-color: rgb(245, 245, 245);
 }
 
+.p-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.p-subtitle{
+    margin-top: 15px;
+    margin-bottom: 9px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.p-des{
+    color: rgba(14, 14, 14, 0.7);
+}
+
 /* Header Section */
 
 /* Navbar Section */
@@ -77,11 +94,6 @@ body{
 
 }
 
-.pillars h3{
-    font-size: 40px;
-    font-weight: 700;
-}
-
 .pillars-info{
     display: flex;
     justify-content: space-evenly;
@@ -98,7 +110,65 @@ body{
     padding: 24px;
 }
 
-.pillar h5{
-    margin-top: 15px;
-    margin-bottom: 9px;
+/* Vision Section */
+
+.visions{
+    margin: 80px auto;
+    width: 90%;
+}
+
+.visions>p{
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.vision-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.vision{
+    box-sizing: border-box;
+    /* border: 1px solid rgba(14, 14, 14, 0.15); */
+    border-radius: 16px;
+    border: none;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 24px;
+}
+
+#vision-3{
+    background: rgb(247, 235, 207);
+}
+
+.vision>button{
+    padding: 11px 20px 11px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-1{
+    background: rgb(84, 144, 245);
+}
+
+.btn-2{
+    background-color: rgb(9, 161, 92);
+}
+
+.btn-3{
+    background-color: rgb(255, 194, 57);
+}
+
+.vision-des{
+    background-image: url('../assets/quote-bg.png');
+    background-position-x: 25px;
+    background-position-y: 23px;
+    background-color: white;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
 }
