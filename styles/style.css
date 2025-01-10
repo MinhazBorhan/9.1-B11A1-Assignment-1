@@ -320,3 +320,27 @@ font-weight: 600;
     color: white;
     background: rgb(0, 106, 80);
 }
+
+/* .Footer Section */
+
+.foot{
+    background: rgb(255, 255, 255);
+    padding: 50px 160px 50px 160px;
+    text-align: center;
+}
+
+.foot>h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.foot>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.foot>hr{
+    margin: 31px 0 31px 0;
+}
