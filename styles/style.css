@@ -145,8 +145,15 @@ body{
     width: 100%;
     border-radius: 16px;
     border: none;
-    background: rgba(84, 144, 245, 0.2);
     padding: 32px;
+}
+
+#vision-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+
+#vision-2{
+    background: rgb(198, 228, 214);
 }
 
 #vision-3{
@@ -334,7 +341,7 @@ table tr td{
 }
 
 .taka>div:hover{
-    background: rgb(123, 241, 245);
+    background: rgb(113, 208, 211);
 }
 
 #amount{
@@ -342,7 +349,7 @@ table tr td{
 }
 
 #amount:hover{
-    background: rgb(123, 241, 245);
+    background: rgb(113, 208, 211);
 }
 
 .donate-form{
@@ -438,9 +445,24 @@ table tr td{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .foot>hr{
     margin: 31px 0 31px 0;
+}
+
+#social-1{
+    width: 30px;
+    height: 28.5px;
+}
+
+#social-2{
+    width: 30px;
+    height: 28px;
+}
+
+#social-3{
+    width: 30px;
+    height: 26px;
 }
