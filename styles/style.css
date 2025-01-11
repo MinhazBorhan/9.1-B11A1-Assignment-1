@@ -47,6 +47,12 @@ body{
     padding: 15px 30px 15px 30px;
 }
 
+.nav>button:hover{
+    background-color: rgba(76, 189, 209, 0.932);
+    border: none;
+    color: white;
+}
+
 /* Banner Section */
 
 .banner{
@@ -87,6 +93,10 @@ body{
     border: none;
 }
 
+.banner>div>button:hover{
+    background-color: rgba(76, 189, 209, 0.932);
+}
+
 /* Pillar Section */
 
 .pillars{
@@ -96,6 +106,7 @@ body{
 }
 
 .pillars-info{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -131,12 +142,11 @@ body{
 }
 
 .vision{
-    box-sizing: border-box;
-    /* border: 1px solid rgba(14, 14, 14, 0.15); */
+    width: 100%;
     border-radius: 16px;
     border: none;
     background: rgba(84, 144, 245, 0.2);
-    padding: 24px;
+    padding: 32px;
 }
 
 #vision-3{
@@ -149,6 +159,10 @@ body{
     border-radius: 8px;
     color: white;
     border: none;
+}
+
+.vision>button:hover{
+    background-color: rgba(76, 189, 209, 0.932);
 }
 
 .btn-1{
@@ -175,8 +189,70 @@ body{
     border-radius: 16px;
 }
 
-/* News Section */
 
+/* Opinion Section */
+.opinion{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.opinion-title {
+    margin-left: 35px;
+}
+
+.opinion-container{
+    width: 90%;
+    margin: 20px auto 70px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 32px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+thead{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+table tr th{
+    padding: 24px;
+    background: rgb(198, 228, 214);
+    text-align: start;
+}
+
+table tr td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
+
+.td-1{
+    width: 83%;
+}
+
+.tds{
+    background-color: white;
+}
+
+.td-2 a{
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgba(9, 161, 92, 0.15);
+    padding: 10px 14px 10px 14px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+/* News Section */
 .news{
     margin: 80px auto;
     width: 90%;
@@ -224,8 +300,12 @@ body{
     border: none;
 }
 
-/* Donate Section */
+.news-contain>button:hover{
+    background-color: rgba(76, 189, 209, 0.932);
+}
 
+
+/* Donate Section */
 .donate{
     margin: 80px auto;
     width: 90%;
@@ -253,6 +333,18 @@ body{
     padding: 40px;
 }
 
+.taka>div:hover{
+    background: rgb(123, 241, 245);
+}
+
+#amount{
+    background: rgb(198, 228, 214);
+}
+
+#amount:hover{
+    background: rgb(123, 241, 245);
+}
+
 .donate-form{
     display: flex;
     flex-direction: column;
@@ -276,12 +368,16 @@ body{
     padding: 11px 20px 11px 20px;
     border-radius: 8px;
     font-size: 18px;
-font-weight: 600;
+    font-weight: 600;
     border: none;
 }
 
-/* Subscribe Section */
+.donate-form>button:hover{
+    background-color: rgba(76, 189, 209, 0.932);
+}
 
+
+/* Subscribe Section */
 .subscribe{
     margin: 80px auto;
     width: 90%;
@@ -311,7 +407,7 @@ font-weight: 600;
     border: none;
 }
 
-.submit{
+.subs-form>button{
     padding: 15px 34px 15px 34px;
     border-radius: 0px 8px 8px 0px;
     border: none;
@@ -321,8 +417,12 @@ font-weight: 600;
     background: rgb(0, 106, 80);
 }
 
-/* .Footer Section */
+.subs-form>button:hover{
+    background-color: rgba(76, 189, 209, 0.932);
+}
 
+
+/* .Footer Section */
 .foot{
     background: rgb(255, 255, 255);
     padding: 50px 160px 50px 160px;
